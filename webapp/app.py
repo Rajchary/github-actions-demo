@@ -9,6 +9,7 @@ def two_hundred():
 @app.route("/error")
 def error():
     abort(500, "oooh some error!")
+print("This application has a new feature now !")
 
 
 if __name__ == "__main__":
